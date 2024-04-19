@@ -3,83 +3,94 @@
     padding: 0;
 }
 
-
 body {
-    /*background: radial-gradient(#4023be, #9ca2eb, #5461ec);   */
-    background-image: url(../img/napo-feliz.jpg);
-
-}
-.circle-container{
-    border-radius: 40px;
-}
-.decoration-circle{
-    position: absolute;
-    left: 110px;
-    top: 30px;
-    width: 350px;
-    height: 295px;  
-    background-color: red;
-    border-radius: 80%;
-    outline: 4px solid black;
-}
-.card-container {
-    background-color:rgb(243, 238, 255) ;
-    width: 400PX;
-    height: 600px;
-    margin: 0 auto;
-    border-radius: 40px;
-    margin-top: 20px;
+    width: 100vw;
+    height: 100%;
+    background-color: white;
 }
 
-.img-container {
-    position: relative;
-    width: 300px;
-    height: 250px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-left: 13%;
-    top: 30px
+#profession{
+    color: #0d8eff;;
 }
 
 .img-container img {
+    border-radius: 10vw;
+    margin-top: 5vh;
+}
 
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Ensures the image fills the circle */
+.card-container {
+    background: linear-gradient(to bottom, #30BFBF, #5cc4c4, #9acece, #d9f5f8, #e3ebeb, #e3ebeb);
+    width: 100vw;
+    height: 100vh;
+}
+
+.card-content {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .main-info {
-    margin-top: 20%;
-}
-
-#name {
-    font-family: "Nanum-Gothic", sans-serif;
-    color: black;
     text-align: center;
-
+    margin: 5vh 5vh 5vh 5vh;
 }
 
-#profession {
-    font-family: "Nanum-Gothic", sans-serif;
-    color: black;
-    text-align: center;
-    margin-top: 5%;
-    font-size: 120%;
-}
+.main-info {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
 
 .links div {
-    float: left;
-    margin-left: 38px;
-    margin-top: 40px;
+    margin: 2vh;
+    border-radius: 5%;
+}
+
+.about-link {
+    color: white;
+    font-size: 180%;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#link-facebook,
+#link-instagram,
+#link-whatsapp,
+#link-location {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 15vw;
 }
 
 
-#link-location,
-#link-whatsapp,
-#link-facebook,
-#link-instagram {
-    background-color: white;
-    border-radius: 40px;
+#link-facebook img,
+#link-instagram img,
+#link-whatsapp img,
+#link-location img {
+    position: relative;
+    left: 2vw;
+}
+
+#link-facebook h1,
+#link-instagram h1,
+#link-whatsapp h1,
+#link-location h1 {
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+    text-align: center;
+    color: #369df8;
+}
+
+#link-call {
+    background-color: rgb(59, 255, 59);
+    height: 6vh;
+    border-radius: 15vw;
+}
+
+#link-call h1 {
+    position: relative;
+    top: 1vh;
 }
