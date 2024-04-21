@@ -2,17 +2,18 @@
     margin: 0; padding: 0;
 }
 
+
 body{
-    background: radial-gradient(#4023be, #9ca2eb, #5461ec);   
+    background-image:url(../img/fondo.jpg);
 
 }
 .card-container{
     background: #160172;  
      width: 400PX;
-    height: 600px;    
+    height: 850px;    
     margin: 0 auto;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .img-container{
@@ -32,38 +33,42 @@ body{
 }
 
 #name{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, Helvetica, sans-serif;
     color: white;
     text-align: center;
 }
 
 #profession{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, helvetica, sans-serif;
+    font-weight: 500;
     color: rgb(162, 181, 235);
     text-align: center;
     margin-top: 5%;
     font-size: 120%;
-    
 }
 
 
 .links div {
     float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: transparent;
+    color: rgb(111, 140, 221);
+    background-color: white;
     margin-left: 25%;
     margin-top: 40px;
     width: 200px;
     height: 50px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 30px; 
 }
 
 
 .links div h2{
-   margin-top: -40px;
-   margin-left: 70px; 
+   margin-top: -35px;
+   margin-left: 65px; 
+   font-family: Inter, helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   src: url(../fonts/Inter/Inter-Medium.ttf) format('truetype'),
+       
 }
 
 .links a{
@@ -75,7 +80,48 @@ body{
 }
 
 .links img{
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 6px;
+    filter: invert(57%) sepia(80%) saturate(1613%) hue-rotate(198deg) brightness(91%) contrast(89%);
 }
 
+#link-facebook:hover{
+    background: transparent;
+    color:white;
+}
+#link-facebook:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-instagram:hover{
+    background: transparent;
+    color:white;
+}
+#link-instagram:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+ 
+#link-whatsapp:hover{
+    background: transparent;
+    color:white;
+}
+
+#link-whatsapp:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-location:hover{
+    background: transparent;
+    color:white;
+}
+
+#link-location:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+.img-profile img{
+    margin-left: 100px;
+    margin-top: -35%;
+    position: relative;
+}
 
