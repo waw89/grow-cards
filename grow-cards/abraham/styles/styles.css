@@ -1,0 +1,164 @@
+*{
+    margin: 0; padding: 0;
+}
+
+
+body{
+    background: radial-gradient(at center bottom, #160172,#190a5f, #000);
+
+}
+
+
+.card-container{
+    background: rgba(177, 238, 137, 0.589);  
+     width: 400PX;
+    height: 120vh;    
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.img-container{
+    border-radius: 40px;
+}
+
+.img-container img{ 
+    margin-left: 0;
+    margin-top: 0;
+   
+
+    width: 400px;
+}
+
+.main-info{
+    margin-top: 5%;
+}
+
+#name{
+    font-family: Inter, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#profession{
+    font-family: Inter, helvetica, sans-serif;
+    font-weight: 700;
+    color: white; 
+    text-align: center;
+    margin-top: 5%;
+    font-size: 120%;
+}
+
+.links{
+    height: 40vh;
+}
+
+.links div {
+    float: left;
+    color: rgba(138, 221, 138, 0.623); 
+    background-color: white;
+    margin-left: 13%;
+    margin-top: 40px;
+    width: 300px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 30px; 
+  
+}
+
+
+.links div h2{
+   margin-top: -35px;
+   margin-left: 65px; 
+   font-family: Inter, helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   src: url(../fonts/Inter/Inter-Medium.ttf) format('truetype'),
+       
+}
+
+.links a{
+    text-decoration: blink;
+}
+.links a:visited{
+    color: white;
+    
+}
+
+.links img{
+    margin-left: 17px;
+    margin-top: 3vh;
+    filter: invert(30%) sepia(45%) saturate(10%) hue-rotate(198deg) brightness(91%) contrast(89%);
+}
+
+
+#link-facebook:hover{
+    background: transparent;
+    color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
+}
+
+
+
+#link-facebook:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-instagram:hover{
+    background: transparent;
+    color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
+}
+#link-instagram:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+ 
+#link-whatsapp:hover{
+    background: transparent;
+    color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
+}
+
+#link-whatsapp:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+
+
+.img-profile img{
+    margin-left: 100px;
+    margin-top: -35%;
+    position: relative;
+    border-radius: 100%;
+}
+
+.about-me{
+
+    margin-top: 10%;
+}
+
+.about-me h1{
+    color: white;
+    text-align: center;
+    font-family: Inter, helvetica, sans-serif;
+   
+}
+
+.about-me p{
+    color: white;
+    text-align: center;
+    font-family: Inter, helvetica, sans-serif;
+    opacity: 0.8;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
