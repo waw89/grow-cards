@@ -10,7 +10,7 @@ body{
 .card-container{
     background: #160172;  
      width: 400PX;
-    height: 850px;    
+    height: 1000px;    
     margin: 0 auto;
   
     margin-top: 0px;
@@ -48,27 +48,19 @@ body{
 
 
 .links div {
+    
     float: left;
     color: rgb(111, 140, 221);
     background-color: white;
     margin-left: 25%;
     margin-top: 40px;
-    width: 200px;
+    width: 50px;
     height: 50px;
     border: 2px solid white;
     border-radius: 30px; 
 }
 
 
-.links div h2{
-   margin-top: -35px;
-   margin-left: 65px; 
-   font-family: Inter, helvetica, sans-serif;
-   font-style: normal;
-   font-weight: 700;
-   src: url(../fonts/Inter/Inter-Medium.ttf) format('truetype'),
-       
-}
 
 .links a{
     text-decoration: blink;
@@ -79,7 +71,7 @@ body{
 }
 
 .links img{
-    margin-left: 17px;
+    margin-left: 7px;
     margin-top: 7px;
     filter: invert(57%) sepia(80%) saturate(1613%) hue-rotate(198deg) brightness(91%) contrast(89%);
 }
@@ -114,8 +106,19 @@ body{
     color:white;
 }
 
+
 #link-location:hover img{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-apple:hover{
+    background: transparent;
+    color:white;
+}
+
+#link-android:hover{
+    background: transparent;
+    color:white;
 }
 
 .img-profile img{
@@ -124,3 +127,35 @@ body{
     position: relative;
 }
 
+.qr-container{
+    margin-left: 32%;
+    margin-top: 60%;
+    
+}
+
+.qr-container img{
+    border-radius: 10px;
+}
+
+#link-apple{
+   width: 200px;
+   margin-top: 40px;  
+}
+
+#link-apple h2{
+    font-family: Inter, helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 30%;
+ }
+
+ #link-android{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10%;
+ }
+ 
+ #link-android h2{
+     font-family: Inter, helvetica, sans-serif;
+     margin-top: 5%;
+     margin-left: 30%;
+  }
