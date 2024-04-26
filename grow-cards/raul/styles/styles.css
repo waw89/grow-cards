@@ -3,28 +3,28 @@
 }
 
 
-body{
-    background-image:url(../img/fondo.jpg);
-
+body{ 
+    background: rgba(177, 238, 137, 0.589);
 }
+
+
 .card-container{
-    background: #000000;  
+    background: rgba(177, 238, 137, 0.589);  
      width: 400PX;
-    height: 850px;    
+    height: 1000px;    
     margin: 0 auto;
-    border-radius: 20px;
     margin-top: 0px;
 }
 
 .img-container{
-
+    border-radius: 40px;
 }
 
 .img-container img{ 
     margin-left: 0;
     margin-top: 0;
-    -webkit-mask-image: linear-gradient(#000,rgba(0,0,0,0));
-    border-radius: 20px;;
+    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0.5),rgba(0,0,0,0));
+
     width: 400px;
 }
 
@@ -40,24 +40,28 @@ body{
 
 #profession{
     font-family: Inter, helvetica, sans-serif;
-    font-weight: 500;
-    color: rgb(162, 181, 235);
+    font-weight: 700;
+    color: white; 
     text-align: center;
     margin-top: 5%;
     font-size: 120%;
 }
 
+.links{
+    height: 40vh;
+}
 
 .links div {
     float: left;
-    color: rgb(111, 140, 221);
+    color: rgba(138, 221, 138, 0.623); 
     background-color: white;
-    margin-left: 25%;
+    margin-left: 13%;
     margin-top: 40px;
-    width: 200px;
+    width: 50px;
     height: 50px;
     border: 2px solid white;
     border-radius: 30px; 
+  
 }
 
 
@@ -80,15 +84,23 @@ body{
 }
 
 .links img{
-    margin-left: 17px;
-    margin-top: 7px;
-    filter: invert(57%) sepia(80%) saturate(1613%) hue-rotate(198deg) brightness(91%) contrast(89%);
+    margin-left: 8px;
+    margin-top: 1vh;
+    filter: invert(94%) sepia(3%) saturate(3911%) hue-rotate(61deg) brightness(95%) contrast(95%);
 }
+
 
 #link-facebook:hover{
     background: transparent;
-    color:rgb(0, 0, 0);
+    color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
 }
+
+
+
 #link-facebook:hover img{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
 }
@@ -96,6 +108,10 @@ body{
 #link-instagram:hover{
     background: transparent;
     color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
 }
 #link-instagram:hover img{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
@@ -104,6 +120,10 @@ body{
 #link-whatsapp:hover{
     background: transparent;
     color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
 }
 
 #link-whatsapp:hover img{
@@ -113,6 +133,10 @@ body{
 #link-location:hover{
     background: transparent;
     color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
 }
 
 #link-location:hover img{
@@ -123,5 +147,80 @@ body{
     margin-left: 100px;
     margin-top: -35%;
     position: relative;
+    border-radius: 100%;
 }
 
+.about-me{
+
+    margin-top: 10%;
+}
+
+.about-me h1{
+    color: white;
+    text-align: center;
+    font-family: Inter, helvetica, sans-serif;
+   
+}
+
+.about-me p{
+    color: white;
+    text-align: center;
+    font-family: Inter, helvetica, sans-serif;
+    opacity: 0.8;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#link-apple{
+    width: 200px;
+    margin-top: 160px; 
+    margin-left: -10px; 
+ }
+
+ #link-android{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    margin-left: 95px;
+ }
+
+ .qr-container{
+    margin-left: 30%;
+ }
+
+ #link-apple:hover{
+    background: transparent;
+    color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
+}
+#link-android:hover{
+    background: transparent;
+    color:white;
+    transition: 0.5s;
+    background-color: #a6eba9;
+    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+ 
+}
+
+#link-apple:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-android:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+.qr-container img{
+    border-radius: 10px;
+}
+
+@media(min-width: 400px){
+    .img-container img{
+        width: 430px;
+        margin-left: -15px;
+    }
+}

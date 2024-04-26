@@ -4,7 +4,7 @@
 
 
 body{
-    background-image:url(../img/fondo.jpg);
+    background-color: #160172;
    
 }
 .card-container{
@@ -79,6 +79,8 @@ body{
 #link-facebook:hover{
     background: transparent;
     color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
 }
 #link-facebook:hover img{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
@@ -87,6 +89,8 @@ body{
 #link-instagram:hover{
     background: transparent;
     color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
 }
 #link-instagram:hover img{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
@@ -95,6 +99,8 @@ body{
 #link-whatsapp:hover{
     background: transparent;
     color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
 }
 
 #link-whatsapp:hover img{
@@ -104,6 +110,8 @@ body{
 #link-location:hover{
     background: transparent;
     color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
 }
 
 
@@ -114,11 +122,15 @@ body{
 #link-apple:hover{
     background: transparent;
     color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
 }
 
 #link-android:hover{
     background: transparent;
     color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
 }
 
 .img-profile img{
@@ -180,18 +192,10 @@ body{
     
  }
 
- @media (min-width:400px) {
-    .card-container{
-    width: 500px;
+ 
+    @media(min-width: 400px){
+        .img-container img{
+            width: 430px;
+            margin-left: -15px;
+        }
     }
-
-    .img-container img{
-        width: 500px;
-    }
-
-    .img-profile{
-        margin-left: 10%;
-    }
-
-    
- }
