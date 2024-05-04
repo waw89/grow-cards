@@ -1,0 +1,213 @@
+*{
+    margin: 0; padding: 0;
+}
+
+
+body{
+    background-color: #160172;
+   
+}
+.card-container{
+    background: #160172;  
+     width: 400PX;
+    height: 1000px;    
+    margin: 0 auto;
+  
+    margin-top: 0px;
+}
+
+.img-container{
+
+}
+
+.img-container img{ 
+    margin-left: 0;
+    margin-top: 0;
+    -webkit-mask-image: linear-gradient(#000,rgba(0,0,0,0));
+    width: 400px;
+   
+}
+
+.img-profile{
+
+}
+
+.main-info{
+    margin-top: 5%;
+}
+
+#name{
+    font-family: Inter, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#profession{
+    font-family: Inter, helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(162, 181, 235);
+    text-align: center;
+    margin-top: 5%;
+    font-size: 120%;
+}
+
+
+.links div {
+    
+    float: left;
+    color: rgb(111, 140, 221);
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px; 
+}
+
+#link-apple{
+    margin-left: 25%;
+}
+
+#link-android{
+    margin-left: 25%;
+}
+
+.links a{
+    text-decoration: blink;
+}
+.links a:visited{
+    color: white;
+    
+}
+
+.links img{
+    margin-left: 7px;
+    margin-top: 7px;
+    filter: invert(57%) sepia(80%) saturate(1613%) hue-rotate(198deg) brightness(91%) contrast(89%);
+}
+
+#link-facebook:hover{
+    background: transparent;
+    color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
+}
+#link-facebook:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-instagram:hover{
+    background: transparent;
+    color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
+}
+#link-instagram:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+ 
+#link-whatsapp:hover{
+    background: transparent;
+    color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
+}
+
+#link-whatsapp:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-location:hover{
+    background: transparent;
+    color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
+}
+
+
+#link-location:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-apple:hover{
+    background: transparent;
+    color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
+}
+
+#link-android:hover{
+    background: transparent;
+    color:white;
+    box-shadow: 0 0 10px rgb(111, 140, 221), 0 0 40px rgb(111, 140, 221), 0 0 60px rgb(111, 140, 221);
+    transition: 0.5s;
+}
+
+.img-profile img{
+    margin-left: 100px;
+    margin-top: -35%;
+    position: relative;
+    border-radius: 100px;
+}
+
+#link-apple:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-android:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+.qr-container{
+    margin-left: 32%;
+    margin-top: 60%;
+    
+}
+
+.qr-container img{
+    border-radius: 10px;
+}
+
+#link-apple{
+   width: 200px;
+   margin-top: 40px;  
+}
+
+#link-apple h2{
+    font-family: Inter, helvetica, sans-serif;
+    margin-top: -34px;
+    margin-left: 31%;
+ }
+
+ #link-apple img{
+    margin-left: 17px;
+    margin-top: 5px;
+ }
+
+ #link-android{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10%;
+ }
+ 
+ #link-android h2{
+    font-family: Inter, helvetica, sans-serif;
+    margin-top: -32px;
+    margin-left: 30%;
+ }
+
+  
+ #link-android img{
+    margin-left: 20px;
+    margin-top: 5%;
+    
+ }
+
+ 
+    @media(min-width: 400px){
+        .img-container img{
+            width: 430px;
+            margin-left: -15px;
+        }
+    }
