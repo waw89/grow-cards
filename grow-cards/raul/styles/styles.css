@@ -4,14 +4,14 @@
 
 
 body{ 
-    background: rgba(177, 238, 137, 0.589);
+    background: rgb(0, 0, 0);
 }
 
 
 .card-container{
-    background: rgba(177, 238, 137, 0.589);  
+    background: rgb(0, 0, 0);;  
      width: 400PX;
-    height: 1000px;    
+    height: 1250px;    
     margin: 0 auto;
     margin-top: 0px;
 }
@@ -23,9 +23,10 @@ body{
 .img-container img{ 
     margin-left: 0;
     margin-top: 0;
-    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0.5),rgba(0,0,0,0));
+    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0.6),rgba(0,0,0,0));
 
-    width: 400px;
+    width: 200px;
+  
 }
 
 .main-info{
@@ -53,9 +54,9 @@ body{
 
 .links div {
     float: left;
-    color: rgba(138, 221, 138, 0.623); 
+    color: rgb(0, 0, 0); 
     background-color: white;
-    margin-left: 13%;
+    margin-left: 15%;
     margin-top: 40px;
     width: 50px;
     height: 50px;
@@ -86,7 +87,7 @@ body{
 .links img{
     margin-left: 8px;
     margin-top: 1vh;
-    filter: invert(94%) sepia(3%) saturate(3911%) hue-rotate(61deg) brightness(95%) contrast(95%);
+    filter: invert(0%) sepia(87%) saturate(7500%) hue-rotate(212deg) brightness(90%) contrast(109%);
 }
 
 
@@ -94,8 +95,8 @@ body{
     background: transparent;
     color:white;
     transition: 0.5s;
-    background-color: #a6eba9;
-    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+    background-color: #000000;
+    box-shadow: 0 0 10px #4b4b4b8a, 0 0 40px #4b4b4b8a, 0 0 60px #4b4b4b8a;
  
 }
 
@@ -109,8 +110,8 @@ body{
     background: transparent;
     color:white;
     transition: 0.5s;
-    background-color: #a6eba9;
-    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+    background-color: #000000;
+    box-shadow: 0 0 10px #4b4b4b8a, 0 0 40px #4b4b4b8a, 0 0 60px #4b4b4b8a;
  
 }
 #link-instagram:hover img{
@@ -121,8 +122,8 @@ body{
     background: transparent;
     color:white;
     transition: 0.5s;
-    background-color: #a6eba9;
-    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+    background-color: #000000;
+    box-shadow: 0 0 10px #4b4b4b8a, 0 0 40px #4b4b4b8a, 0 0 60px #4b4b4b8a;
  
 }
 
@@ -130,16 +131,29 @@ body{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
 }
 
-#link-location:hover{
+#link-linkedin:hover{
     background: transparent;
     color:white;
     transition: 0.5s;
-    background-color: #a6eba9;
-    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+    background-color: #000000;
+    box-shadow: 0 0 10px #4b4b4b8a, 0 0 40px #4b4b4b8a, 0 0 60px #4b4b4b8a;
  
 }
 
-#link-location:hover img{
+#link-github:hover img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
+}
+
+#link-github:hover{
+    background: transparent;
+    color:white;
+    transition: 0.5s;
+    background-color: #000000;
+    box-shadow: 0 0 10px #4b4b4b8a, 0 0 40px #4b4b4b8a, 0 0 60px #4b4b4b8a;
+ 
+}
+
+#link-linkedin:hover img{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(107%) contrast(103%);
 }
 
@@ -174,35 +188,36 @@ body{
 
 #link-apple{
     width: 200px;
-    margin-top: 160px; 
-    margin-left: -10px; 
+    margin-top: 10vh; 
+    margin-left: 25%;
  }
 
  #link-android{
     width: 200px;
     margin-top: 20px;
     margin-bottom: 10%;
-    margin-left: 95px;
+    margin-left: 25%;
+    
  }
 
  .qr-container{
-    margin-left: 30%;
+    margin-top: 10vh;
  }
 
  #link-apple:hover{
     background: transparent;
     color:white;
     transition: 0.5s;
-    background-color: #a6eba9;
-    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+    background-color: #000000;
+    box-shadow: 0 0 10px #4b4b4b8a, 0 0 40px #4b4b4b8a, 0 0 60px #4b4b4b8a;
  
 }
 #link-android:hover{
     background: transparent;
     color:white;
     transition: 0.5s;
-    background-color: #a6eba9;
-    box-shadow: 0 0 10px #a6eba9, 0 0 40px #a6eba9, 0 0 60px #a6eba9 ;
+    background-color: #000000;
+    box-shadow: 0 0 10px #4b4b4b8a, 0 0 40px #4b4b4b8a, 0 0 60px #4b4b4b8a;
  
 }
 
@@ -216,9 +231,43 @@ body{
 
 .qr-container img{
     border-radius: 10px;
+    margin-left: 30%;
+}
+
+.copy h3{
+    font-family: Inter, helvetica, sans-serif;
+    font-weight: 500;
+    color: white; 
+    text-align: center;
+   
+    font-size: 100%;
+}
+
+.copy h4{
+    font-family: Inter, helvetica, sans-serif;
+    font-weight: 200;
+    color: white; 
+    text-align: center;
+    margin-top: 10%;
+    font-size: 100%;
+}
+
+.copy a{
+    text-decoration: blink;
+}
+.copy a:visited{
+    color: white;
+    
 }
 
 @media(min-width: 400px){
+    .img-container img{
+        width: 430px;
+        margin-left: -15px;
+    }
+}
+
+@media(max-width: 400px){
     .img-container img{
         width: 430px;
         margin-left: -15px;
