@@ -12,7 +12,7 @@ body{
 .card-container{
     background: #160172;  
      width: 400PX;
-    height: 125vh;    
+    height: 130vh;    
     margin: 0 auto;
     border-radius: 20px;
     margin-top: 0px;
@@ -160,3 +160,31 @@ body{
     margin-right: 5%;
 }
 
+.copy{
+    margin-top: 10vh;
+}
+.copy h3{
+    font-family: Inter, helvetica, sans-serif;
+    font-weight: 500;
+    color: white; 
+    text-align: center;
+   
+    font-size: 100%;
+}
+
+.copy h4{
+    font-family: Inter, helvetica, sans-serif;
+    font-weight: 200;
+    color: white; 
+    text-align: center;
+   
+    font-size: 100%;
+}
+
+.copy a{
+    text-decoration: blink;
+}
+.copy a:visited{
+    color: white;
+    
+}
